@@ -1,0 +1,31 @@
+{
+  "name": "codepipeline-test",
+  "version": "1.0.0",
+  "description": "NodeJS / React sample app for AWS CI/CD pipeline tutorial",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "verify": "eslint . --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandar-harkare/codepipeline-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandar-harkare/codepipeline-test/issues"
+  },
+  "homepage": "https://github.com/mandar-harkare/codepipeline-test#readme",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.15.4",
+    "eslint-config-react-app": "^6.0.0",
+    "express": "^4.17.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.1"
+  }
+}
